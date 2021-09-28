@@ -1,17 +1,17 @@
 @media (max-width: 900px) {
     h1 , h2 , h3 {
-        font-size: 30px !important;
+        font-size: 45px !important;
     }
     h4 , h5 , h6 {
-        font-size: 25px !important;
+        font-size: 40px !important;
     }
     p{
-        font-size: 15px !important;
+        font-size: 20px !important;
     }
     header::after {
         background-size: contain;
         background-position: bottom;
-        bottom: -200px;
+        bottom: -60%;
         left: -33%;
     }
     header .content{
@@ -20,6 +20,17 @@
     .navbar .nav-content .navbar-nav{
         width: 100% !important;
     }
+    .order-sm-0{
+        order: 0 !important;
+    }
+    .order-sm-1{
+        order: 1 !important;
+    }
+}
+@media (max-width: 500px) {
+    header::after {
+        bottom: -40%;
+    } 
 }
 @media (max-width: 399px) {
     header::after{
